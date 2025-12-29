@@ -9,7 +9,7 @@ git_repository(
     patch_cmds = [
         "git log -n 1 --format=%H > VERSION",
     ],
-    remote = "git@github.com:Link-U-OS/integration.git/integration.git",
+    remote = "git@github.com:Link-U-OS/integration.git",
 )
 
 load("@integration//projects:base_deps.bzl", "base_deps")
