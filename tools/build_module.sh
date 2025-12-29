@@ -13,7 +13,7 @@ Usage() {
     -o: override_repository repo_name=repo_path(Support multiple code repos override)
     -e: extra options
     -h: help
-    e.g. build_module.sh -t joint_tf -a x86_64 -j 8 -g -o integration="\$integration_path" -o aimrt_comm="\$aimrt_comm_path" -o aima_protocol="\$aima_protocol_path" -e "--config=xxx --define=xxx=xxx"
+    e.g. build_module.sh -t joint_tf -a x86_64 -j 8 -g -o integration="\$integration_path" -o aimrt_comm="\$aimrt_comm_path" -o aimrt_protocol="\$aimrt_protocol_path" -e "--config=xxx --define=xxx=xxx"
 EOF
     exit 1
 }
