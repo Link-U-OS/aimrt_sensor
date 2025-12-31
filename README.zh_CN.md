@@ -1,6 +1,6 @@
 [English](README.md) | 中文
 
-# aima sensor
+# aimrt_sensor
 
 ## 简介
 
